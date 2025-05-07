@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <!--Link to Google fonts : Roboto-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <!-- Link to external CSS file-->
+   <link rel="stylesheet" href="style.css" />
+   
+</head>
+<body>
+
+  <!-- Header + Navbar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>This is a showcase of my work and experience.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I’m a web developer in training. I enjoy building responsive and accessible websites.</p>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work">
+    <h2>My Work</h2>
+    <ul>
+      <li>Project 1 - HTML/CSS</li>
+      <li>Project 2 - Responsive Design</li>
+      <li>Project 3 - JavaScript Basics</li>
+    </ul>
+    <!-- Add a video/audio file -->
+    <video width="320" height="240" controls>
+      <source src="myprojectdemo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <table border="1">
+      <tr>
+        <th>Year</th>
+        <th>Experience</th>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td>HTML/CSS Bootcamp</td>
+      </tr>
+      <tr>
+        <td>2024</td>
+        <td>Internship at WebWorks</td>
+      </tr>
+    </table>
+    <p><a href="resume.pdf" download>Download My Resume</a></p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"></textarea><br>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
